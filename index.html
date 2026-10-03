@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <title>Metropole Studios | Verification</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glow glow-a"></div>
+  <div class="glow glow-b"></div>
+
+  <main class="card" id="verifyCard">
+    <div class="icon">✓</div>
+    <h1>Enter Access Code</h1>
+    <p class="subtitle">A 4-digit code has been sent to your device.</p>
+
+    <div class="otp" aria-label="4 digit access code">
+      <input inputmode="numeric" maxlength="1" autocomplete="one-time-code" autofocus>
+      <input inputmode="numeric" maxlength="1">
+      <input inputmode="numeric" maxlength="1">
+      <input inputmode="numeric" maxlength="1">
+    </div>
+
+    <p class="message" id="message"></p>
+
+    <div class="resend">Didn't receive it? <button id="resend">Resend</button></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
